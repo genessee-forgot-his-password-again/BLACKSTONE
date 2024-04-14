@@ -5,43 +5,180 @@
 "b" = (
 /obj/structure/fluff/railing/border{
 	icon_state = "border";
-	dir = 1
+	dir = 9
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 6
 	},
 /turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "c" = (
-/obj/structure/fluff/railing/border,
+/obj/item/roguebin/water,
 /turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "d" = (
-/obj/structure/fluff/railing/border{
-	dir = 8;
-	icon_state = "border"
+/obj/effect/decal/cobbleedge{
+	dir = 1
 	},
-/turf/open/floor/rogue/woodturned,
+/turf/open/floor/rogue/ruinedwood/turned,
 /area/shuttle/arrival)
 "e" = (
-/obj/item/reagent_containers/glass/cup/wooden,
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 1
+	},
+/obj/effect/decal/cobbleedge,
+/obj/structure/chair/wood/rogue/chair3{
+	dir = 4
+	},
+/obj/effect/landmark/latejoin,
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"f" = (
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 1
+	},
+/obj/effect/decal/cobbleedge,
 /obj/structure/table/wood{
 	dir = 1;
 	icon_state = "tablewood1"
 	},
 /turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
-"f" = (
-/turf/closed/wall/mineral/rogue/wood/window,
-/area/shuttle/arrival)
 "g" = (
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 9
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 6
+	},
+/turf/open/floor/rogue/ruinedwood/turned,
+/area/shuttle/arrival)
+"h" = (
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 1
+	},
+/obj/structure/chair/bench/church/smallbench,
+/obj/effect/landmark/latejoin,
+/obj/effect/decal/cobbleedge,
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"i" = (
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 8
+	},
+/obj/structure/fluff/railing/border,
 /obj/structure/fluff/railing/border{
 	icon_state = "border";
 	dir = 10
 	},
+/obj/machinery/light/rogue/lanternpost{
+	dir = 1
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 1
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 4
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 5
+	},
 /turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
-"h" = (
+"j" = (
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/shuttle/arrival)
-"i" = (
+"k" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/chair/bench/church/smallbench{
+	dir = 1
+	},
+/obj/effect/landmark/latejoin,
+/obj/effect/decal/cobbleedge{
+	dir = 1
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"l" = (
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 5
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 10
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"m" = (
+/obj/structure/closet/crate/roguecloset/inn/chest,
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/structure/fluff/railing/border{
+	dir = 6;
+	icon_state = "border"
+	},
+/obj/item/storage/box/matches,
+/obj/effect/decal/cobbleedge{
+	dir = 9
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"n" = (
+/obj/structure/chair/wood/rogue/chair3{
+	dir = 1
+	},
+/obj/effect/landmark/latejoin,
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"o" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/chair/bench/church/smallbench{
+	dir = 1
+	},
+/obj/effect/landmark/latejoin,
+/obj/effect/landmark/latejoin,
+/obj/effect/decal/cobbleedge{
+	dir = 1
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"p" = (
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 8
+	},
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 9
+	},
+/obj/effect/decal/cobbleedge,
+/obj/effect/decal/cobbleedge{
+	dir = 4
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 6
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"q" = (
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 1
+	},
+/obj/effect/decal/cobbleedge,
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"r" = (
 /obj/machinery/light/rogue/torchholder{
 	icon_state = "torchwall1";
 	dir = 8
@@ -52,91 +189,25 @@
 /obj/effect/landmark/latejoin,
 /turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
-"j" = (
-/obj/structure/fluff/railing/border{
-	icon_state = "border";
-	dir = 1
-	},
-/obj/structure/fluff/railing/border{
-	dir = 4;
-	icon_state = "border"
-	},
-/obj/structure/fluff/railing/border{
-	icon_state = "border";
-	dir = 5
-	},
-/obj/machinery/light/rogue/lanternpost,
-/turf/open/floor/rogue/woodturned,
-/area/shuttle/arrival)
-"k" = (
-/obj/structure/chair/wood/rogue/chair3{
-	dir = 1
-	},
-/obj/effect/landmark/latejoin,
-/turf/open/floor/rogue/woodturned,
-/area/shuttle/arrival)
-"l" = (
-/obj/structure/closet/crate/roguecloset/inn/chest,
-/obj/item/flashlight/flare/torch,
-/turf/open/floor/rogue/woodturned,
-/area/shuttle/arrival)
-"m" = (
-/obj/structure/closet/crate/roguecloset/inn/chest,
-/obj/item/reagent_containers/glass/cup/wooden,
-/obj/item/reagent_containers/glass/cup/wooden,
-/obj/item/reagent_containers/glass/cup/wooden,
-/turf/open/floor/rogue/woodturned,
-/area/shuttle/arrival)
-"n" = (
-/obj/structure/fluff/railing/border{
-	dir = 4;
-	icon_state = "border"
-	},
-/obj/structure/closet/crate/roguecloset/inn/chest,
-/obj/item/flashlight/flare/torch,
-/obj/item/flashlight/flare/torch,
-/turf/open/floor/rogue/woodturned,
-/area/shuttle/arrival)
-"o" = (
-/obj/machinery/light/rogue/torchholder{
-	icon_state = "torchwall1";
-	dir = 8
-	},
-/turf/open/floor/rogue/woodturned,
-/area/shuttle/arrival)
-"p" = (
-/obj/structure/fluff/wallclock,
-/turf/open/floor/rogue/woodturned,
-/area/shuttle/arrival)
-"q" = (
-/obj/structure/fluff/railing/border{
-	icon_state = "border";
-	dir = 1
-	},
-/obj/structure/fluff/railing/border{
-	dir = 8;
-	icon_state = "border"
-	},
-/obj/structure/fluff/railing/border{
-	dir = 9;
-	icon_state = "border"
-	},
-/obj/machinery/light/rogue/lanternpost{
-	dir = 1
-	},
-/turf/open/floor/rogue/woodturned,
-/area/shuttle/arrival)
-"r" = (
-/obj/structure/chair/wood/rogue/chair3,
-/obj/effect/landmark/latejoin,
-/turf/open/floor/rogue/woodturned,
-/area/shuttle/arrival)
 "s" = (
 /obj/structure/fluff/railing/border{
 	dir = 4;
 	icon_state = "border"
 	},
 /obj/structure/closet/crate/chest,
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 6;
+	icon_state = "border"
+	},
+/obj/item/rogueweapon/huntingknife/stoneknife,
+/obj/item/reagent_containers/glass/cup,
+/obj/effect/decal/cobbleedge{
+	dir = 1
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 8
+	},
 /turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "t" = (
@@ -156,11 +227,45 @@
 	dir = 4;
 	icon_state = "border"
 	},
+/obj/effect/decal/cobbleedge{
+	dir = 8
+	},
 /turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "v" = (
+/obj/structure/fluff/railing/border,
 /obj/structure/fluff/railing/border{
 	icon_state = "border";
+	dir = 8
+	},
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 10
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 4
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 1
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 4
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 5
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"w" = (
+/obj/structure/fluff/railing/border,
+/obj/effect/decal/cobbleedge{
+	dir = 1
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"x" = (
+/obj/structure/fluff/railing/border,
+/obj/effect/decal/cobbleedge{
 	dir = 1
 	},
 /obj/structure/chair/wood/rogue/chair3{
@@ -169,16 +274,51 @@
 /obj/effect/landmark/latejoin,
 /turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
-"w" = (
-/turf/open/floor/rogue/woodturned,
-/area/shuttle/arrival)
-"x" = (
-/obj/item/roguebin/water,
-/turf/open/floor/rogue/woodturned,
-/area/shuttle/arrival)
 "y" = (
 /obj/structure/fluff/railing/border{
 	icon_state = "border";
+	dir = 10
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 5
+	},
+/turf/open/floor/rogue/ruinedwood/turned,
+/area/shuttle/arrival)
+"z" = (
+/obj/structure/fluff/railing/border{
+	dir = 6;
+	icon_state = "border"
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 9
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"A" = (
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 10
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 5
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"B" = (
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
+	dir = 4
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"C" = (
+/obj/structure/fluff/wallclock,
+/obj/machinery/light/rogue/firebowl/standing,
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"D" = (
+/obj/structure/fluff/railing/border,
+/obj/effect/decal/cobbleedge{
 	dir = 1
 	},
 /obj/structure/table/wood{
@@ -187,234 +327,421 @@
 	},
 /turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
-"z" = (
-/obj/structure/fluff/railing/border,
-/obj/structure/closet/crate/chest,
-/obj/item/clothing/suit/roguetown/shirt/rags,
-/turf/open/floor/rogue/woodturned,
-/area/shuttle/arrival)
-"A" = (
-/obj/structure/fluff/railing/border{
-	dir = 4;
-	icon_state = "border"
-	},
-/obj/structure/closet/crate/roguecloset/inn/chest,
-/obj/item/rogueweapon/huntingknife/idagger,
-/turf/open/floor/rogue/woodturned,
-/area/shuttle/arrival)
-"I" = (
-/obj/structure/fluff/railing/border{
-	dir = 9;
-	icon_state = "border"
-	},
-/turf/open/floor/rogue/woodturned,
-/area/shuttle/arrival)
-"K" = (
-/obj/structure/fluff/railing/border{
-	dir = 8;
-	icon_state = "border"
-	},
-/obj/structure/fluff/railing/border,
-/obj/structure/fluff/railing/border{
-	dir = 10;
-	icon_state = "border"
-	},
-/obj/machinery/light/rogue/lanternpost{
-	dir = 1
-	},
-/turf/open/floor/rogue/woodturned,
-/area/shuttle/arrival)
-"O" = (
-/obj/structure/fluff/railing/border{
-	icon_state = "border";
-	dir = 1
-	},
-/obj/structure/chair/wood/rogue/chair3{
-	dir = 8
-	},
-/obj/effect/landmark/latejoin,
-/turf/open/floor/rogue/woodturned,
-/area/shuttle/arrival)
-"P" = (
+"E" = (
 /obj/structure/fluff/railing/border{
 	dir = 4;
 	icon_state = "border"
 	},
 /obj/structure/closet/crate/roguecloset/inn/chest,
 /obj/item/reagent_containers/glass/cup/wooden,
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 5
+	},
+/obj/item/reagent_containers/glass/cup,
+/obj/item/reagent_containers/glass/cup,
+/obj/item/clothing/under/roguetown/tights/vagrant,
+/obj/item/clothing/suit/roguetown/shirt/undershirt/vagrant,
+/obj/item/clothing/shoes/roguetown/simpleshoes,
+/obj/effect/decal/cobbleedge,
+/obj/effect/decal/cobbleedge{
+	dir = 8
+	},
 /turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
-"Q" = (
+"F" = (
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 8
+	},
+/obj/structure/fluff/railing/border{
+	dir = 9;
+	icon_state = "border"
+	},
+/obj/machinery/light/rogue/lanternpost{
+	dir = 1
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 4
+	},
+/obj/effect/decal/cobbleedge,
+/obj/effect/decal/cobbleedge{
+	dir = 6
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"G" = (
+/turf/closed/wall/mineral/rogue/wood/window,
+/area/shuttle/arrival)
+"H" = (
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 1
+	},
+/obj/machinery/light/rogue/lanternpost,
+/obj/effect/decal/cobbleedge,
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"J" = (
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
+	dir = 8
+	},
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 9
+	},
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 10
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 5
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 6
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"K" = (
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 1
+	},
+/obj/structure/chair/bench/church/smallbench,
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 8
+	},
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 9
+	},
+/obj/effect/landmark/latejoin,
+/obj/effect/decal/cobbleedge,
+/obj/effect/decal/cobbleedge{
+	dir = 4
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 6
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"L" = (
+/obj/structure/fluff/railing/border{
+	dir = 8;
+	icon_state = "border"
+	},
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 1
+	},
 /obj/structure/fluff/railing/border,
 /obj/structure/fluff/railing/border{
-	dir = 4;
-	icon_state = "border"
+	icon_state = "border";
+	dir = 10
+	},
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 9
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 4
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 8
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"M" = (
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/structure/table/wood{
+	dir = 1;
+	icon_state = "tablewood1"
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"N" = (
+/turf/closed/wall/mineral/rogue/wood,
+/area/shuttle/arrival)
+"O" = (
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 1
+	},
+/obj/structure/chair/bench/church/smallbench,
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 4
+	},
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 5
+	},
+/obj/effect/landmark/latejoin,
+/obj/effect/decal/cobbleedge,
+/obj/effect/decal/cobbleedge{
+	dir = 8
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"P" = (
+/obj/effect/decal/cobbleedge,
+/turf/open/floor/rogue/ruinedwood/turned,
+/area/shuttle/arrival)
+"R" = (
+/obj/structure/closet/crate/roguecloset/inn/chest,
+/obj/item/flashlight/flare/torch,
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 4
 	},
 /obj/structure/fluff/railing/border{
 	dir = 6;
 	icon_state = "border"
 	},
-/obj/machinery/light/rogue/lanternpost,
-/turf/open/floor/rogue/woodturned,
-/area/shuttle/arrival)
-"R" = (
-/obj/structure/fluff/railing/border{
-	dir = 8;
-	icon_state = "border"
-	},
-/obj/structure/fluff/railing/border,
-/obj/machinery/light/rogue/lanternpost{
+/obj/item/clothing/under/roguetown/tights/vagrant,
+/obj/item/clothing/under/roguetown/tights/vagrant,
+/obj/item/clothing/suit/roguetown/shirt/undershirt/vagrant,
+/obj/item/clothing/suit/roguetown/shirt/undershirt/vagrant,
+/obj/effect/decal/cobbleedge{
 	dir = 1
 	},
-/obj/structure/fluff/railing/border{
-	dir = 10;
-	icon_state = "border"
+/obj/effect/decal/cobbleedge{
+	dir = 8
 	},
 /turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "S" = (
-/turf/closed/wall/mineral/rogue/wood,
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "T" = (
-/obj/machinery/light/rogue/torchholder{
-	icon_state = "torchwall1";
+/obj/structure/chair/wood/rogue/chair3,
+/obj/effect/landmark/latejoin,
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"U" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/chair/bench/church/smallbench{
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 8
+	},
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 10
+	},
+/obj/effect/landmark/latejoin,
+/obj/effect/decal/cobbleedge{
+	dir = 1
+	},
+/obj/effect/decal/cobbleedge{
 	dir = 4
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 5
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"V" = (
+/obj/machinery/light/rogue/firebowl/standing,
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"W" = (
+/obj/structure/fluff/railing/border,
+/obj/machinery/light/rogue/lanternpost,
+/obj/effect/decal/cobbleedge{
+	dir = 1
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"X" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/chair/bench/church/smallbench{
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	dir = 4;
+	icon_state = "border"
+	},
+/obj/effect/landmark/latejoin,
+/obj/effect/decal/cobbleedge{
+	dir = 1
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 8
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 9
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"Y" = (
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 4
+	},
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 5
+	},
+/obj/effect/decal/cobbleedge,
+/obj/effect/decal/cobbleedge{
+	dir = 8
+	},
+/obj/effect/decal/cobbleedge{
+	dir = 10
 	},
 /turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 
 (1,1,1) = {"
 a
-q
-d
-d
-d
-K
+a
+a
+L
+a
+a
 a
 "}
 (2,1,1) = {"
 a
-b
-w
-o
-w
-c
+a
+p
+J
+v
+a
 a
 "}
 (3,1,1) = {"
 a
-b
+a
+q
+N
 w
-S
-w
-c
+a
 a
 "}
 (4,1,1) = {"
-q
-I
-w
+a
+F
+b
 t
-w
-g
-R
+A
+i
+a
 "}
 (5,1,1) = {"
-v
-w
-w
-h
-w
-w
-c
+a
+e
+S
+j
+S
+x
+a
 "}
 (6,1,1) = {"
-y
-w
-w
-h
-w
-w
-c
+a
+f
+S
+j
+S
+D
+a
 "}
 (7,1,1) = {"
-O
-h
-h
-h
-h
-h
-c
+K
+g
+j
+j
+j
+y
+U
 "}
 (8,1,1) = {"
-b
 h
-r
-e
-k
-h
-c
+j
+T
+M
+n
+j
+o
 "}
 (9,1,1) = {"
-h
-h
-w
-f
-p
-h
-h
+P
+j
+V
+G
+C
+j
+d
 "}
 (10,1,1) = {"
-h
-h
-w
-x
-w
-h
-h
+P
+j
+S
+c
+S
+j
+d
 "}
 (11,1,1) = {"
-b
 h
-h
-h
-h
-h
-c
+j
+j
+j
+j
+j
+k
 "}
 (12,1,1) = {"
-v
-w
-w
-i
-w
-w
-c
+O
+l
+S
+r
+S
+z
+X
 "}
 (13,1,1) = {"
-y
-w
-w
+a
+H
 S
-w
-w
-c
+N
+S
+W
+a
 "}
 (14,1,1) = {"
-O
-w
-w
-T
-m
+a
+Y
 l
-z
+B
+m
+R
+a
 "}
 (15,1,1) = {"
-j
-n
-P
+a
+a
+E
 u
 s
-A
-Q
+a
+a
 "}
