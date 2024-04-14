@@ -3,289 +3,418 @@
 /turf/template_noop,
 /area/template_noop)
 "b" = (
-/turf/closed/wall/mineral/titanium,
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 1
+	},
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "c" = (
-/obj/machinery/door/airlock/titanium{
-	name = "Arrivals Shuttle Airlock"
-	},
-/turf/open/floor/plating,
+/obj/structure/fluff/railing/border,
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "d" = (
-/obj/effect/spawner/structure/window/shuttle,
-/turf/open/floor/plating,
+/obj/structure/fluff/railing/border{
+	dir = 8;
+	icon_state = "border"
+	},
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "e" = (
-/obj/structure/table,
-/obj/item/storage/firstaid/regular,
-/turf/open/floor/mineral/titanium/blue,
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/structure/table/wood{
+	dir = 1;
+	icon_state = "tablewood1"
+	},
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "f" = (
-/turf/open/floor/mineral/titanium/blue,
+/turf/closed/wall/mineral/rogue/wood/window,
 /area/shuttle/arrival)
 "g" = (
-/obj/machinery/computer/arcade,
-/obj/machinery/light{
-	dir = 1
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 10
 	},
-/turf/open/floor/mineral/titanium/blue,
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "h" = (
-/obj/structure/closet/wardrobe/green,
-/turf/open/floor/mineral/titanium/blue,
+/turf/open/floor/rogue/ruinedwood/turned,
 /area/shuttle/arrival)
 "i" = (
-/obj/structure/closet/wardrobe/black,
-/turf/open/floor/mineral/titanium/blue,
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
+	dir = 8
+	},
+/obj/structure/chair/bench/church/smallbench{
+	dir = 8
+	},
+/obj/effect/landmark/latejoin,
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "j" = (
-/obj/structure/closet/wardrobe/mixed,
-/turf/open/floor/mineral/titanium/blue,
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	dir = 4;
+	icon_state = "border"
+	},
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 5
+	},
+/obj/machinery/light/rogue/lanternpost,
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "k" = (
-/obj/structure/closet/wardrobe/grey,
-/turf/open/floor/mineral/titanium/blue,
+/obj/structure/chair/wood/rogue/chair3{
+	dir = 1
+	},
+/obj/effect/landmark/latejoin,
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "l" = (
-/obj/machinery/requests_console{
-	department = "Arrival shuttle";
-	name = "Arrivals Shuttle console";
-	pixel_y = 30
-	},
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/open/floor/mineral/titanium/blue,
+/obj/structure/closet/crate/roguecloset/inn/chest,
+/obj/item/flashlight/flare/torch,
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "m" = (
-/obj/structure/shuttle/engine/heater{
-	dir = 4
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/turf/open/floor/plating/airless,
+/obj/structure/closet/crate/roguecloset/inn/chest,
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/reagent_containers/glass/cup/wooden,
+/obj/item/reagent_containers/glass/cup/wooden,
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "n" = (
-/obj/structure/shuttle/engine/propulsion/burst/right{
-	dir = 4
+/obj/structure/fluff/railing/border{
+	dir = 4;
+	icon_state = "border"
 	},
-/turf/open/floor/plating/airless,
+/obj/structure/closet/crate/roguecloset/inn/chest,
+/obj/item/flashlight/flare/torch,
+/obj/item/flashlight/flare/torch,
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "o" = (
-/obj/structure/window/shuttle,
-/obj/structure/grille,
-/turf/open/floor/plating,
-/area/shuttle/arrival)
-"p" = (
-/obj/structure/chair/comfy/shuttle,
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
-"q" = (
-/obj/structure/chair/comfy/shuttle,
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/blue,
-/area/shuttle/arrival)
-"r" = (
-/obj/structure/chair/comfy/shuttle{
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
 	dir = 8
 	},
-/turf/open/floor/mineral/titanium,
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"p" = (
+/obj/structure/fluff/wallclock,
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"q" = (
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	dir = 8;
+	icon_state = "border"
+	},
+/obj/structure/fluff/railing/border{
+	dir = 9;
+	icon_state = "border"
+	},
+/obj/machinery/light/rogue/lanternpost{
+	dir = 1
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"r" = (
+/obj/structure/chair/wood/rogue/chair3,
+/obj/effect/landmark/latejoin,
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "s" = (
-/obj/structure/shuttle/engine/propulsion{
-	dir = 4
+/obj/structure/fluff/railing/border{
+	dir = 4;
+	icon_state = "border"
 	},
-/turf/open/floor/plating/airless,
+/obj/structure/closet/crate/chest,
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "t" = (
-/obj/machinery/door/airlock/titanium{
-	name = "Arrivals Shuttle Airlock"
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
+	dir = 4
 	},
-/turf/open/floor/mineral/titanium,
+/obj/structure/chair/bench/church/smallbench{
+	dir = 4
+	},
+/obj/effect/landmark/latejoin,
+/turf/open/floor/rogue/ruinedwood/turned,
 /area/shuttle/arrival)
 "u" = (
-/obj/structure/shuttle/engine/propulsion{
-	dir = 4
-	},
 /obj/docking_port/mobile/arrivals,
-/turf/open/floor/plating/airless,
+/obj/structure/fluff/railing/border{
+	dir = 4;
+	icon_state = "border"
+	},
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "v" = (
-/obj/structure/chair/comfy/shuttle{
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
 	dir = 1
 	},
-/turf/open/floor/mineral/titanium/blue,
+/obj/structure/chair/wood/rogue/chair3{
+	dir = 4
+	},
+/obj/effect/landmark/latejoin,
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "w" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/open/floor/mineral/titanium/blue,
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "x" = (
-/obj/structure/closet/emcloset,
-/turf/open/floor/mineral/titanium/blue,
+/obj/item/roguebin/water,
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "y" = (
-/obj/machinery/light,
-/turf/open/floor/mineral/titanium/blue,
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 1
+	},
+/obj/structure/table/wood{
+	dir = 1;
+	icon_state = "tablewood1"
+	},
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "z" = (
-/obj/item/radio/intercom{
-	name = "Station Intercom (General)";
-	pixel_y = -29
-	},
-/obj/machinery/light,
-/turf/open/floor/mineral/titanium/blue,
+/obj/structure/fluff/railing/border,
+/obj/structure/closet/crate/chest,
+/obj/item/clothing/suit/roguetown/shirt/rags,
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "A" = (
-/obj/structure/shuttle/engine/propulsion/burst/left{
-	dir = 4
+/obj/structure/fluff/railing/border{
+	dir = 4;
+	icon_state = "border"
 	},
-/turf/open/floor/plating/airless,
+/obj/structure/closet/crate/roguecloset/inn/chest,
+/obj/item/rogueweapon/huntingknife/idagger,
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"I" = (
+/obj/structure/fluff/railing/border{
+	dir = 9;
+	icon_state = "border"
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"K" = (
+/obj/structure/fluff/railing/border{
+	dir = 8;
+	icon_state = "border"
+	},
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 10;
+	icon_state = "border"
+	},
+/obj/machinery/light/rogue/lanternpost{
+	dir = 1
+	},
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"O" = (
+/obj/structure/fluff/railing/border{
+	icon_state = "border";
+	dir = 1
+	},
+/obj/structure/chair/wood/rogue/chair3{
+	dir = 8
+	},
+/obj/effect/landmark/latejoin,
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"P" = (
+/obj/structure/fluff/railing/border{
+	dir = 4;
+	icon_state = "border"
+	},
+/obj/structure/closet/crate/roguecloset/inn/chest,
+/obj/item/reagent_containers/glass/cup/wooden,
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"Q" = (
+/obj/structure/fluff/railing/border,
+/obj/structure/fluff/railing/border{
+	dir = 4;
+	icon_state = "border"
+	},
+/obj/structure/fluff/railing/border{
+	dir = 6;
+	icon_state = "border"
+	},
+/obj/machinery/light/rogue/lanternpost,
+/turf/open/floor/rogue/woodturned,
+/area/shuttle/arrival)
+"R" = (
+/obj/structure/fluff/railing/border{
+	dir = 8;
+	icon_state = "border"
+	},
+/obj/structure/fluff/railing/border,
+/obj/machinery/light/rogue/lanternpost{
+	dir = 1
+	},
+/obj/structure/fluff/railing/border{
+	dir = 10;
+	icon_state = "border"
+	},
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 "S" = (
-/turf/open/floor/mineral/titanium,
+/turf/closed/wall/mineral/rogue/wood,
+/area/shuttle/arrival)
+"T" = (
+/obj/machinery/light/rogue/torchholder{
+	icon_state = "torchwall1";
+	dir = 4
+	},
+/turf/open/floor/rogue/woodturned,
 /area/shuttle/arrival)
 
 (1,1,1) = {"
 a
-b
-o
+q
 d
 d
-b
+d
+K
 a
 "}
 (2,1,1) = {"
 a
 b
-p
-S
-v
-b
+w
+o
+w
+c
 a
 "}
 (3,1,1) = {"
 a
 b
-q
+w
 S
 w
-b
+c
 a
 "}
 (4,1,1) = {"
-b
-b
-b
+q
+I
+w
 t
-b
-b
-b
+w
+g
+R
 "}
 (5,1,1) = {"
-b
-e
-S
-S
-S
-x
-b
+v
+w
+w
+h
+w
+w
+c
 "}
 (6,1,1) = {"
-c
-f
-r
-r
-r
-f
+y
+w
+w
+h
+w
+w
 c
 "}
 (7,1,1) = {"
-b
-g
-f
-f
-f
-y
-b
+O
+h
+h
+h
+h
+h
+c
 "}
 (8,1,1) = {"
-d
+b
 h
 r
-r
-r
-f
-d
+e
+k
+h
+c
 "}
 (9,1,1) = {"
-d
-i
+h
+h
+w
 f
-f
-f
-f
-d
+p
+h
+h
 "}
 (10,1,1) = {"
-d
-j
-r
-r
-r
-f
-d
+h
+h
+w
+x
+w
+h
+h
 "}
 (11,1,1) = {"
-d
-k
-f
-f
-f
-f
-d
+b
+h
+h
+h
+h
+h
+c
 "}
 (12,1,1) = {"
-b
-l
-r
-r
-r
-z
-b
+v
+w
+w
+i
+w
+w
+c
 "}
 (13,1,1) = {"
-c
-f
+y
+w
+w
 S
-S
-S
-f
+w
+w
 c
 "}
 (14,1,1) = {"
-b
+O
+w
+w
+T
 m
-m
-m
-m
-m
-b
+l
+z
 "}
 (15,1,1) = {"
-b
+j
 n
-s
+P
 u
 s
 A
-b
+Q
 "}
